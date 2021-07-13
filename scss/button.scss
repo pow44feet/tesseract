@@ -1,0 +1,29 @@
+.button {
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #ffffff;
+   border: none;
+   background-color: transparent;
+   transition: all .2s ease;
+   cursor: pointer;
+
+   &--figure {
+      padding: 10px 30px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 120%;
+      text-transform: uppercase;
+      clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 75% 300%, 25% 280%, 0% 50%);
+   }
+
+   &--pink {
+      background-color: #f82b88;
+
+      &:hover {
+         background-color: transparent;
+         color: #f82b88;
+      }
+   }
+}

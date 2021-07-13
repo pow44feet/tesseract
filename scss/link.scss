@@ -1,0 +1,21 @@
+.link {
+   cursor: pointer;
+   text-decoration: none;
+   transition: all .2s ease;
+
+   &--black {
+      color: #000000;
+
+      &:hover {
+         color: #F82B88;
+      }
+   }
+
+   &--white {
+      color: #ffffff;
+
+      &:hover {
+         color: #F82B88;
+      }
+   }
+}

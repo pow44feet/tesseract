@@ -1,0 +1,13 @@
+.page__header {
+    margin-bottom: 61px;
+}
+
+.page__main {
+    margin-bottom: 62px;
+}
+
+@media(max-width: 499.98px) {
+    .page__header {
+        margin-bottom: 13px;
+    }
+}
